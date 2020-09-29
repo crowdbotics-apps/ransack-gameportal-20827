@@ -38,9 +38,9 @@ urlpatterns = [
     path("api/v1/", include("users.api.v1.urls")),
 ]
 
-admin.site.site_header = "WLMS CONNECT"
-admin.site.site_title = "WLMS CONNECT Admin Portal"
-admin.site.index_title = "WLMS CONNECT Admin"
+admin.site.site_header = "RansackStudios GamePortal"
+admin.site.site_title = "RansackStudios GamePortal Admin Portal"
+admin.site.index_title = "RansackStudios GamePortal Admin"
 
 # swagger
 api_info = openapi.Info(
